@@ -38,6 +38,8 @@ class List{
     
     func bubbleSort(){
         for i in 0...Count{
+            var current = Head
+            var next = Head?.getNext()
             for j in 0...(Count-i){
                 print("\(i) , \(j) :", terminator: " ")
             }
