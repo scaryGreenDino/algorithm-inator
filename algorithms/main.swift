@@ -6,6 +6,7 @@
 //
 
 import Foundation
-
-print("Hello, World!")
+let nums: [Float] = [1,2,3,4,5]
+var list = List(numbers: nums)
+list.bubbleSort()
 
